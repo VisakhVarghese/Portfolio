@@ -5,7 +5,7 @@
    /* colors */
    /* change favorite color */
 
-   --hue-color: 190;
+   --hue-color: 280;
    /* HSL color mode */
 
    --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -830,7 +830,7 @@ img {
 
 .qualification__calender {
    /* font-size: var(--smaller-font-size); */
-   font-size: 1.5vw;
+   font-size: var(--small-font-size);
    color: var(--text-color-light);
 }
 
