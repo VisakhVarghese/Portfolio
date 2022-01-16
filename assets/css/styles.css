@@ -5,7 +5,7 @@
    /* colors */
    /* change favorite color */
 
-   --hue-color: 280;
+   --hue-color: 88;
    /* HSL color mode */
 
    --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -608,6 +608,7 @@ img {
    display: inline-flex;
    align-items: center;
    letter-spacing: 2px;
+   margin-top: 20px;
    text-transform: uppercase;
 }
 
@@ -830,7 +831,7 @@ img {
 
 .qualification__calender {
    /* font-size: var(--smaller-font-size); */
-   font-size: var(--small-font-size);
+   font-size: 10px;
    color: var(--text-color-light);
 }
 
@@ -1591,7 +1592,7 @@ img {
    }
 
    .section {
-      padding: 5rem 0 1rem;
+      padding: 3.5rem 0 1rem;
       /* background-color: red; */
    }
 
@@ -1816,10 +1817,6 @@ img {
       grid-template-columns: 0.5fr;
    }
 
-   .qualification__calender {
-      font-size: var(--smaller-font-size);
-   }
-
    .services__container {
       grid-template-columns: repeat(3, 218px);
       justify-content: center;
@@ -1910,10 +1907,6 @@ img {
 
    .qualification__title {
       font-size: var(--h3-font-size);
-   }
-
-   .qualification__calender {
-      font-size: var(--smaller-font-size);
    }
 
    .portfolio__content {
