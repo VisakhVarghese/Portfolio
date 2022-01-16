@@ -31,7 +31,7 @@
    --h3-font-size: 1rem;
    --normal-font-size: 0.938rem;
    --small-font-size: 0.813rem;
-   --smaller-fonr-size: 0.75rem;
+   --smaller-font-size: 0.75rem;
 
    /* font-weight */
 
@@ -829,7 +829,7 @@ img {
 }
 
 .qualification__calender {
-   font-size: var(--small-font-size);
+   font-size: var(--smaller-font-size);
    color: var(--text-color-light);
 }
 
