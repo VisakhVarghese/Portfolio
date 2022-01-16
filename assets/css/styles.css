@@ -941,6 +941,7 @@ img {
    font-size: var(--h3-font-size);
    font-weight: var(--font-medium);
    margin-bottom: var(--mb-1-5);
+   color: var(--text-color-light);
 }
 
 .services__model-close {
@@ -976,8 +977,10 @@ img {
 
 .portfolio__img {
    width: 265px;
+   height: 200px;
    border-radius: 0.5rem;
    justify-self: center;
+   object-fit: cover;
 }
 
 .portfolio__title {
