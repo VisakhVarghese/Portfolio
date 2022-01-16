@@ -5,7 +5,7 @@
    /* colors */
    /* change favorite color */
 
-   --hue-color: 88;
+   --hue-color: 190;
    /* HSL color mode */
 
    --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -1816,6 +1816,10 @@ img {
       grid-template-columns: 0.5fr;
    }
 
+   .qualification__calender {
+      font-size: var(--smaller-font-size);
+   }
+
    .services__container {
       grid-template-columns: repeat(3, 218px);
       justify-content: center;
@@ -1906,6 +1910,10 @@ img {
 
    .qualification__title {
       font-size: var(--h3-font-size);
+   }
+
+   .qualification__calender {
+      font-size: var(--smaller-font-size);
    }
 
    .portfolio__content {
