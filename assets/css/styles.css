@@ -5,7 +5,7 @@
    /* colors */
    /* change favorite color */
 
-   --hue-color: 243;
+   --hue-color: 88;
    /* HSL color mode */
 
    --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -25,10 +25,10 @@
 
    --body-font: 'Montserrat', sans-serif;
 
-   --big-font-size: 2rem;
+   --big-font-size: 5vw;
    --h1-fonr-size: 1.5rem;
    --h2-font-size: 1.25rem;
-   --h3-font-size: 1.125rem;
+   --h3-font-size: 2vw;
    --normal-font-size: 0.938rem;
    --small-font-size: 0.813rem;
    --smaller-fonr-size: 0.75rem;
@@ -492,7 +492,8 @@ img {
 .home__blob {
    width: 200px;
    clip-path: circle();
-
+   border-radius: 50%;
+   border: 4px solid var(--first-color);
    fill: var(--first-color);
 }
 
@@ -516,8 +517,7 @@ img {
 }
 
 .home__subtitle {
-   /* font-size: var(--h3-font-size); */
-   font-size: 8px;
+   font-size: var(--h3-font-size);
    color: var(--text-color);
    font-weight: 9000;
    margin-bottom: var(--mb-0-75);
@@ -534,7 +534,7 @@ img {
 #playbtn {
    display: flex;
    align-items: center;
-   justify-content: flex-start;
+   /* justify-content: flex-start; */
 }
 
 #playbtn h5 {
@@ -607,6 +607,8 @@ img {
 .button--flex {
    display: inline-flex;
    align-items: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
 }
 
 .button--small {
@@ -827,7 +829,7 @@ img {
 }
 
 .qualification__calender {
-   font-size: var(--smaller-font-size);
+   font-size: var(--small-font-size);
    color: var(--text-color-light);
 }
 
@@ -1588,7 +1590,7 @@ img {
    }
 
    .section {
-      padding: 1rem 0 1rem;
+      padding: 5rem 0 1rem;
       /* background-color: red; */
    }
 
