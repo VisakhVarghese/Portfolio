@@ -1794,7 +1794,8 @@ img {
    }
 
    .about__description {
-      text-align: initial;
+      text-align: center;
+      font-size: 13px;
    }
 
    .about__info {
