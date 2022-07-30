@@ -753,11 +753,11 @@ img {
 }
 
 .skills__open .skills__html {
-   width: 86%;
+   width: 90%;
 }
 
 .skills__open .skills__css {
-   width: 83%;
+   width: 80%;
 }
 
 .skills__open .skills__js {
@@ -766,20 +766,42 @@ img {
 .skills__open .skills__react {
    width: 80%;
 }
-.skills__open .skills__php {
-   width: 85%;
+.skills__open .skills__angular {
+   width: 65%;
+}
+.skills__open .skills__go {
+   width: 75%;
 }
 .skills__open .skills__node {
-   width: 75%;
+   width: 80%;
+}
+.skills__open .skills__java {
+   width: 85%;
+}
+.skills__open .skills__express {
+   width: 70%;
+}
+
+.skills__open .skills__spring {
+   width: 65%;
 }
 .skills__open .skills__firebase {
    width: 80%;
 }
+.skills__open .skills__mysql {
+   width: 75%;
+}
+.skills__open .skills__mongodb {
+   width: 70%;
+}
+.skills__open .skills__cassandra {
+   width: 70%;
+}
 .skills__open .skills__python {
-   width: 65%;
+   width: 55%;
 }
 .skills__open .skills__figma {
-   width: 70%;
+   width: 60%;
 }
 
 .skills__open .skills__sketch {
